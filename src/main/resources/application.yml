@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:taco-cloud-keys.jks
+    key-store-password: letmein
+    key-password: letmein
+
+test: 199
